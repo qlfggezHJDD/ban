@@ -8,7 +8,7 @@ GUILD_ID   = int(os.getenv("GUILD_ID"))
 
 # IDs a ne jamais ban (toi + tes amis)
 WHITELIST = [
-    # 123456789012345678,
+    1523390797230379118,
 ]
 
 intents = discord.Intents.default()
