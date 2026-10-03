@@ -17,6 +17,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
+    await client.change_presence(status=discord.Status.invisible)
     print(f"Ban bot actif : {client.user}")
 
 @client.event
